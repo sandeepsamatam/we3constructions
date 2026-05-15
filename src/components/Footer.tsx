@@ -29,7 +29,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
           {/* Brand */}
           <div className="lg:col-span-1">
-            <img src={logo} alt="We3 Constructions & Interiors" className="h-16 w-auto mb-4 rounded-lg" />
+            <img src={logo} alt="We3 Constructions & Interiors" className="h-24 md:h-32 w-auto object-contain mb-6 rounded-lg" />
             <p className="text-white/70 text-sm mb-6">
               Building dreams with transparency and trust since 2019. Your one-stop solution for construction and interiors in Andhra Pradesh.
             </p>
@@ -101,9 +101,9 @@ export default function Footer() {
               </li>
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                <span className="text-white/70 text-sm">
+                <a href="https://maps.app.goo.gl/ZLfTSz1NSAcb9Uz89" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-accent transition-colors text-sm">
                   Rajam, Andhra Pradesh, India
-                </span>
+                </a>
               </li>
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import { ArrowRight, Building2, Home, MapPin } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import heroBg from '@/assets/hero-bg.jpg';
 
 const stats = [
@@ -46,13 +47,13 @@ export default function Hero() {
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-16 animate-fade-up opacity-0 stagger-3">
-            <a href="#contact" className="btn-primary group">
+            <Link to="/contact" className="btn-primary group">
               Start Your Project
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
-            </a>
-            <a href="#services" className="hero-btn-outline">
+            </Link>
+            <Link to="/services" className="hero-btn-outline">
               Explore Services
-            </a>
+            </Link>
           </div>
 
           {/* Stats */}

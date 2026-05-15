@@ -102,15 +102,20 @@ export default function Contact() {
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 p-4 rounded-xl bg-muted">
-                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
+              <a 
+                href="https://maps.app.goo.gl/ZLfTSz1NSAcb9Uz89"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-xl bg-muted hover:bg-accent/10 transition-colors group"
+              >
+                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
                   <MapPin className="w-5 h-5 text-accent" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
                   <p className="font-semibold text-primary">Rajam, Andhra Pradesh</p>
                 </div>
-              </div>
+              </a>
 
               <div className="flex items-center gap-4 p-4 rounded-xl bg-muted">
                 <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">

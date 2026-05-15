@@ -1,5 +1,5 @@
 import { Lightbulb, ArrowRight, TestTube, Wallet, FileCheck } from 'lucide-react';
-
+import { Link } from 'react-router-dom';
 const tips = [
   {
     icon: TestTube,
@@ -76,10 +76,10 @@ export default function Tips() {
         {/* CTA */}
         <div className="text-center mt-12">
           <p className="text-muted-foreground mb-4">Have questions about your project?</p>
-          <a href="#contact" className="btn-primary inline-flex items-center gap-2">
+          <Link to="/contact" className="btn-primary inline-flex items-center gap-2">
             Get Expert Advice
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
     </section>

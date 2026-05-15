@@ -22,7 +22,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3">
-            <img src={logo} alt="We3 Constructions & Interiors" className="h-12 w-auto" />
+            <img src={logo} alt="We3 Constructions & Interiors" className="h-16 md:h-20 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
